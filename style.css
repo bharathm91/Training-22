@@ -1,0 +1,162 @@
+body{
+width: 100%;
+background-image: url(./images/Website-Background.jpg);
+}
+.container{
+background-color: white;
+padding-top: 32px;
+padding-left: 48px;
+padding-bottom: 18px;
+margin: 18px;
+box-shadow: 3px 3px 3px 3px;
+}
+
+.row{
+padding: 18px 22px 10px 12px;
+}
+.header{    
+background-color: purple;
+color:white;
+padding-left: 70px;
+margin-left: 0px;
+margin-right: 0px;
+}
+
+.btn{
+width: 230px;
+}
+
+.header_one{
+padding-left: 72px;
+margin-top: 32px;
+}
+
+#item_badge{
+margin-left: 3px;
+background-color: red;
+color: white;
+padding: 3px;
+font-size: 22px;
+}
+
+#price_badge{
+margin-left: 3px;
+background-color: gray;
+color: white;
+padding: 3px;
+border-radius: 12px;
+font-size: 22px;
+}
+
+.item_desc{
+font-size: 13px;
+}
+.middle{
+padding-left: 72px;
+margin-top: 48px;
+margin-left: 100px;
+margin-bottom: 48px;
+}
+.logo_buffet{
+float: right;
+margin-left: 41px;
+border: 2px groove whitesmoke;
+
+}
+
+#new_badge{
+background-color: red;
+color: white;
+padding: 3px;
+font-size: 22px;
+}
+
+.bottom{
+padding-left: 76px;
+margin-top: 32px;
+margin-bottom: 82px;
+}
+
+.logo_chef{
+margin-top: 28px;
+padding-right: 12px;
+float:left;
+}
+.item_award{
+padding-left: 120px;
+}
+.item_special{
+padding-left: 4px;
+}
+
+.form_booking{
+background-color: #D5BBF1;
+border-style: inset;
+border-top: solid 4px blueviolet;
+}
+
+.btn-success{
+justify-content: center;
+padding: 12px;
+width: 220px;
+}
+.btn-danger{
+width: 135px;  
+}
+.form-check-label{
+padding-left: 32px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 28px;
+}
+.date-time{
+padding-left: 0px!important;
+display: flex;
+}
+
+.btn-action{
+text-align: center;
+padding: 11px;
+padding-right: 344px;
+}
+.btn-secondary{
+width: 100px;
+
+}
+.btn-primary{
+width: 100px;
+}
+.modal-header{
+background-color: blueviolet;
+color: white;
+}
+
+
+.reserve-btn:hover + .tooltipdemo {
+display: block;
+position:absolute;
+background-color: rgb(14, 13, 13);
+color: #fff;
+text-align: center;
+border-radius: 12px;
+padding: 5px 0;
+width: 100px;
+top: 12px;
+right: 90%;
+
+}
+.tooltipdemo{
+display: none;
+
+}
+
+.d-block{
+height: 220px;
+width: 220px;
+}
+
+.carousel-inner{
+    margin-top: 22px;
+}
+#carouselExampleIndicators{
+    background-color: violet;
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+      <head>
+        <title>Light Shot</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="./images/leaves.webp">
+        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./node_modules/bootstrap-social/bootstrap-social.css">
+        <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.min.css">
+      </head>
+
+
+<!-----body section-------->
+<div class="container">
+    <div class="row header align-items-center" style="margin-left: 0px; margin-right: 0px;">
+        <div class="col-lg-5">
+          <h3>Ristorante Con Fusion</h3>
+          <p>We take experiance from the world's best cuisines,and create a unique fusion experiance
+          our lipsmacking creations will tickle you culinary senses!</p>
+        </div>
+        <div class="col-lg-3">
+          <img src="./images/logo.png" alt="logo" width="150px" height="100px">
+        </div>
+
+        <div class="col-lg-4">
+          <i class="fa fa-linkedin"></i>
+          <button type="button" class="btn btn-warning btn-lg reserve-btn" data-toggle="modal" data-target="#myModal">Reserve Table</button>
+          <span class="tooltipdemo">Tooltip</span>
+          <a href="https://linkedin.com" target="_blank" alt="linkedin"><i class="fa fa-linkedin"></i></a>
+          <a href="https://facebook.com" target="_blank" alt="facebook"><i class="fa fa-facebook"></i></a>
+          <a href="www.google.com" target="_blank" alt="google"><i class="fa fa-google"></i></a>
+        </div>
+    </div>
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+                           <!--------section one ends------->
+                      <div class="row header_one align-items-center">
+                          <div class="col-lg-2">
+                            <img src="./images/pizza.jpeg" alt="pizza" width="150" height="100">
+                          </div>
+                          <div class="col-lg-6">
+                            <h3>Uthapizza<span id=item_badge>HOT</span><span id="price_badge">$4.99</span></h3>
+                            <p class="item_desc"> A unique combination off indian utthapam(pancake) and Italian pizza,
+                              toppeed with cerignola olives,ripe vinee cherry tomatoes vidali onion,
+                              Guntur chillies and buffalo paneer.</p>
+                          </div>
+                            <div class="col-lg-4">
+                              <h3 class="item_lipheader">Our lipsmacking Culinary Creations</h3>
+                            </div>
+                      </div>
+              
+          
+            <!-----section two end-->
+          <hr>
+          <div class="row middle align-items-center">
+              <div class="col-lg-3">
+                <h2>This Month's Promotion</h2>
+              </div>
+              <div class="col-lg-8">
+                <img class="logo_buffet" img src="./images/buffet.jpeg" width="105px" height="115px">
+                <h2 class="item_buffet align-items-center">Weekend Grand Buffet <span id="new_badge">New</span></h2>
+                <p class="buffet_desc">Featuring mouthwatering  combination with a choice of different salads,six enticing
+                  appetizers,six main entrees and five choicest desserts.Free flowing bubbly and soft
+                  drinks.All for $19.99 perperson.</p>
+              </div>
+          </div>
+
+        <!-------section three end-->
+        <hr>
+        <div class="row bottom align-items-center">
+            <div class="col-lg-9">
+              <img class="logo_chef align-items-center" src="./images/alberto.jpeg">
+              <h3 class="item_name">Alberto Somayya</h3>
+              <h4 class="item_design">Executive Chef</h4>
+                <p class="item_award">Award winning three-star Michelin chef with wide international experiance having worked
+                closely with whos-who in the culinary world,he specializes in creating mouthwatering Indo-Italian
+                fusion experiances.</p>     
+            </div>
+              <div class="col-lg-3">
+                <h4 class="item_special">Meet our culinary specialists</h4>
+                </div>
+        </div>
+          
+        <div class="modal" id="myModal">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">Reserve Table</h4>
+                <button type="button" class="btn-close" data-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+              <form>
+                <div class="form_booking align-items-center" id="myModal">
+                  <div class="row form-check-label">
+                    <div class="col-lg-3">
+                      <label for="form-check-label" class="col-form-label">Number of Guests</label>
+                    </div> 
+                    <div class="col-lg-9 form-radio">
+                      <input class="form-radio-input" type="radio" value="1" id="radiodefault">
+                      <label class="form_radio-label" for="radiodefault">1</label>
+                      <input class="form-radio-input" type="radio" value="2" id="radiodefault" checked>
+                      <label class="form_radio-label" for="radiodefault">2</label>
+                      <input class="form-radio-input" type="radio" value="3" id="radiodefault">
+                      <label class="form_radio-label" for="radiodefault">3</label>
+                      <input class="form-radio-input" type="radio" value="4" id="radiodefault">
+                      <label class="form_radio-label" for="radiodefault">4</label>
+                      <input class="form-radio-input" type="radio" value="5" id="radiodefault">
+                      <label class="form_radio-label" for="radiodefault">5</label>
+                      <input class="form-radio-input" type="radio" value="6" id="radiodefault">
+                      <label class="form_radio-label" for="radiodefault">6</label>   
+                    </div>
+                  </div>
+                  <div class="row form-check-label">
+                    <div class="col-lg-3">
+                      <label for="form-check-label" class="col-form-label">section</label>
+                    </div> 
+                    <div class="btn-group btn-active" role="group" >
+                      <button type="button" class="btn btn-success btn-lg">Non-Smoking</button>
+                      <button type="button" class="btn btn-danger btn-lg">Smoking</button>
+                  </div>
+                </div>
+              <div class="row form-check-label">
+                <div class="col-lg-3">
+                  <label for="exampleFormControlInput1" class="form-label">Date and Time</label>
+                </div> 
+                <div class="col-lg-4 date-time">
+                    <input type="text" class="form-control" id="floatingInputValue" placeholder="date" value="Date">
+                  <input type="text" class="form-control" id="floatingInputValue" placeholder="Time" value="Time">
+                  </div>
+              </div>
+              <div class="btn-action">
+                <button type="button" class="btn btn-secondary">Cancel</button>
+                <button type="submit" class="btn btn-primary">submit</button>
+              </div>    
+                </div>
+              </form>
+            </div>
+            </div>
+          </div>
+        </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+<script>
+$(function () {
+$('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+</body>
+</html>
